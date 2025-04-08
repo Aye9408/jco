@@ -28,6 +28,7 @@ public class SapFunctionTest {
         // 调用函数
         function.execute(destination);
 
+
         // 可选：打印返回参数
         if (function.getExportParameterList() != null) {
             System.out.println("返回结果：");
